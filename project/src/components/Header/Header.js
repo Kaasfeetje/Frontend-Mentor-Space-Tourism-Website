@@ -21,7 +21,10 @@ const Header = () => {
                     className={`font-barlowCondensed text-white text-base tracking-widest uppercase md:flex md:text-sm lg:text-base`}
                 >
                     <li className={`py-3 md:mx-6 md:py-0 lg:mx-8`}>
-                        <NavLink to="/" className="md:py-8 md:block">
+                        <NavLink
+                            to="/"
+                            className="md:py-8 md:block hover:block hover:border-r-4 hover:border-white hover:border-opacity-50 md:hover:border-b-4 md:hover:border-r-0"
+                        >
                             <span className="font-bold pr-3 md:hidden lg:inline-block">
                                 00
                             </span>
@@ -29,7 +32,10 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li className={`py-3 md:mx-6 md:py-0 lg:mx-8`}>
-                        <NavLink to="/destination" className="md:py-8 md:block">
+                        <NavLink
+                            to="/destination"
+                            className="md:py-8 md:block hover:block hover:border-r-4 hover:border-white hover:border-opacity-50 md:hover:border-b-4 md:hover:border-r-0"
+                        >
                             <span className="font-bold pr-3 md:hidden lg:inline-block">
                                 01
                             </span>
@@ -37,7 +43,10 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li className={`py-3 md:mx-6 md:py-0 lg:mx-8`}>
-                        <NavLink to="/crew" className="md:py-8 md:block">
+                        <NavLink
+                            to="/crew"
+                            className="md:py-8 md:block hover:block hover:border-r-4 hover:border-white hover:border-opacity-50 md:hover:border-b-4 md:hover:border-r-0"
+                        >
                             <span className="font-bold pr-3 md:hidden lg:inline-block">
                                 02
                             </span>
@@ -45,7 +54,10 @@ const Header = () => {
                         </NavLink>
                     </li>
                     <li className={`py-3 md:mx-6 md:py-0 lg:mx-8`}>
-                        <NavLink to="/technology" className="md:py-8 md:block">
+                        <NavLink
+                            to="/technology"
+                            className="md:py-8 md:block hover:block hover:border-r-4 hover:border-white hover:border-opacity-50 md:hover:border-b-4 md:hover:border-r-0"
+                        >
                             <span className="font-bold pr-3 md:hidden lg:inline-block">
                                 03
                             </span>

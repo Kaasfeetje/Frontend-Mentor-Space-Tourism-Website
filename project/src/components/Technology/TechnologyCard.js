@@ -20,7 +20,7 @@ const TechnologyCard = ({ technology, activeId, setTechnologyId }) => {
                             activeId === 0
                                 ? "bg-white  text-darkGrayBorder"
                                 : " bg-transparent text-white border-opacity-25"
-                        } md:w-16 md:h-16 lg:my-2`}
+                        } md:w-16 md:h-16 lg:my-2 hover:border-opacity-50 hover:cursor-pointer`}
                         onClick={() => setTechnologyId(0)}
                     >
                         <span className="font-bellefair text-base md:text-xl">
@@ -32,7 +32,7 @@ const TechnologyCard = ({ technology, activeId, setTechnologyId }) => {
                             activeId === 1
                                 ? "bg-white  text-darkGrayBorder"
                                 : " bg-transparent text-white border-opacity-25"
-                        } md:w-16 md:h-16 lg:my-2`}
+                        } md:w-16 md:h-16 lg:my-2 hover:border-opacity-50 hover:cursor-pointer`}
                         onClick={() => setTechnologyId(1)}
                     >
                         <span className="font-bellefair text-base md:text-xl">
@@ -44,7 +44,7 @@ const TechnologyCard = ({ technology, activeId, setTechnologyId }) => {
                             activeId === 2
                                 ? "bg-white  text-darkGrayBorder"
                                 : " bg-transparent text-white border-opacity-25"
-                        } md:w-16 md:h-16 lg:my-2`}
+                        } md:w-16 md:h-16 lg:my-2 hover:border-opacity-50 hover:cursor-pointer`}
                         onClick={() => setTechnologyId(2)}
                     >
                         <span className="font-bellefair text-base md:text-xl">

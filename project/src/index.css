@@ -38,6 +38,22 @@
     display: block;
 }
 
+.explore .effect {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: -25%;
+    top: -25%;
+    width: 150%;
+    height: 150%;
+    border-radius: 100%;
+    z-index: 0;
+}
+
+.explore:hover .effect {
+    display: block;
+}
+
 @media (min-width: 768px) {
     .home {
         background-image: url("./assets/home/background-home-tablet.jpg");

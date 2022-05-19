@@ -20,8 +20,11 @@ const Home = () => {
                         we’ll give you a truly out of this world experience!
                     </p>
                 </div>
-                <div className="z-0 font-bellefair bg-white absolute w-36 h-36 flex items-center justify-center rounded-full bottom-12 md:bottom-24 md:w-60 md:h-60 lg:w-72 lg:h-72 lg:bottom-auto lg:right-24">
-                    <h3 className="text-3xl">Explore</h3>
+                <div className="explore z-0 absolute font-bellefair bg-white  w-36 h-36 flex items-center justify-center rounded-full bottom-12 md:bottom-24 md:w-60 md:h-60 lg:w-72 lg:h-72 lg:bottom-auto lg:right-24">
+                    <div className="z-10 absolute bg-white flex items-center justify-center rounded-full">
+                        <h3 className="text-3xl">Explore</h3>
+                    </div>
+                    <div className="effect"> </div>
                 </div>
             </main>
         </div>

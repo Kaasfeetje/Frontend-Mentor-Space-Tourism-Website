@@ -16,7 +16,7 @@ const DestinationCard = ({ destination, activeId, setDestination }) => {
                             0 === activeId
                                 ? "border-white text-white"
                                 : "text-mysteriousGray border-transparent"
-                        } md:text-base lg:ml-0`}
+                        } md:text-base lg:ml-0 hover:border-b-4 hover:border-white hover:border-opacity-50 hover:cursor-pointer`}
                     >
                         Moon
                     </button>
@@ -26,7 +26,7 @@ const DestinationCard = ({ destination, activeId, setDestination }) => {
                             1 === activeId
                                 ? "border-white text-white"
                                 : "text-mysteriousGray border-transparent"
-                        } md:text-base`}
+                        } md:text-base hover:border-b-4 hover:border-white hover:border-opacity-50 hover:cursor-pointer`}
                     >
                         Mars
                     </button>
@@ -36,7 +36,7 @@ const DestinationCard = ({ destination, activeId, setDestination }) => {
                             2 === activeId
                                 ? "border-white text-white"
                                 : "text-mysteriousGray border-transparent"
-                        } md:text-base`}
+                        } md:text-base hover:border-b-4 hover:border-white hover:border-opacity-50 hover:cursor-pointer`}
                     >
                         Europa
                     </button>
@@ -46,7 +46,7 @@ const DestinationCard = ({ destination, activeId, setDestination }) => {
                             3 === activeId
                                 ? "border-white text-white"
                                 : "text-mysteriousGray border-transparent"
-                        } md:text-base`}
+                        } md:text-base hover:border-b-4 hover:border-white hover:border-opacity-50 hover:cursor-pointer`}
                     >
                         Titan
                     </button>

@@ -13,7 +13,7 @@ const CrewCard = ({ crew, activeId, setCrewId }) => {
                     <div
                         className={`bg-white w-3 h-3 mx-2 rounded-full ${
                             0 === activeId ? "opacity-100" : "opacity-20"
-                        } lg:ml-0`}
+                        } lg:ml-0 hover:bg-white hover:opacity-50 hover:cursor-pointer`}
                         onClick={() => setCrewId(0)}
                     >
                         {" "}
@@ -21,7 +21,7 @@ const CrewCard = ({ crew, activeId, setCrewId }) => {
                     <div
                         className={`bg-white w-3 h-3 mx-2 rounded-full ${
                             1 === activeId ? "opacity-100" : "opacity-20"
-                        }`}
+                        } hover:bg-white hover:opacity-50 hover:cursor-pointer`}
                         onClick={() => setCrewId(1)}
                     >
                         {" "}
@@ -29,7 +29,7 @@ const CrewCard = ({ crew, activeId, setCrewId }) => {
                     <div
                         className={`bg-white w-3 h-3 mx-2 rounded-full ${
                             2 === activeId ? "opacity-100" : "opacity-20"
-                        }`}
+                        } hover:bg-white hover:opacity-50 hover:cursor-pointer`}
                         onClick={() => setCrewId(2)}
                     >
                         {" "}
@@ -37,7 +37,7 @@ const CrewCard = ({ crew, activeId, setCrewId }) => {
                     <div
                         className={`bg-white w-3 h-3 mx-2 rounded-full ${
                             3 === activeId ? "opacity-100" : "opacity-20"
-                        }`}
+                        } hover:bg-white hover:opacity-50 hover:cursor-pointer`}
                         onClick={() => setCrewId(3)}
                     >
                         {" "}
