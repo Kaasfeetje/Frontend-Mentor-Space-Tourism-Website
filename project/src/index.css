@@ -6,6 +6,14 @@
 
 .home {
     background-image: url("./assets/home/background-home-mobile.jpg");
+}
+
+.destination {
+    background-image: url("./assets/destination/background-destination-mobile.jpg");
+}
+
+.home,
+.destination {
     background-size: cover;
     background-position: center;
 }
@@ -25,6 +33,10 @@
         background-image: url("./assets/home/background-home-tablet.jpg");
     }
 
+    .destination {
+        background-image: url("./assets/destination/background-destination-tablet.jpg");
+    }
+
     .active {
         border-right: none;
         border-bottom: 4px solid #fff;
@@ -37,5 +49,9 @@
 @media (min-width: 1440px) {
     .home {
         background-image: url("./assets/home/background-home-desktop.jpg");
+    }
+
+    .destination {
+        background-image: url("./assets/destination/background-destination-desktop.jpg");
     }
 }

@@ -8,6 +8,12 @@ module.exports = {
         },
 
         extend: {
+            width: {
+                128: "27.815rem",
+            },
+            height: {
+                128: "27.815rem",
+            },
             fontFamily: {
                 barlowCondensed: ["Barlow Condensed", "sans-serif"],
                 barlow: ["Barlow", "sans-serif"],
@@ -23,6 +29,7 @@ module.exports = {
             colors: {
                 transparentWhite: "rgba(255,255,255,0.04)",
                 headerLineGray: "#979797",
+                destinationLine: "#383B4B",
                 mysteriousGray: "#D0D6F9",
             },
         },
