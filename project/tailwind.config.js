@@ -13,6 +13,7 @@ module.exports = {
             },
             height: {
                 128: "27.815rem",
+                129: "33.25rem",
             },
             fontFamily: {
                 barlowCondensed: ["Barlow Condensed", "sans-serif"],
