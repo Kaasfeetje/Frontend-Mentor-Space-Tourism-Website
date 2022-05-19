@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home {
+    background-image: url("./assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.huge-blur {
+    backdrop-filter: blur(82.5px);
+}
+
+.active {
+    border-right: 4px solid #fff;
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .home {
+        background-image: url("./assets/home/background-home-tablet.jpg");
+    }
+
+    .active {
+        border-right: none;
+        border-bottom: 4px solid #fff;
+        display: block;
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .home {
+        background-image: url("./assets/home/background-home-desktop.jpg");
+    }
+}
