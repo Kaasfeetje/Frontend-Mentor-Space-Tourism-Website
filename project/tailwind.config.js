@@ -32,6 +32,7 @@ module.exports = {
                 headerLineGray: "#979797",
                 destinationLine: "#383B4B",
                 mysteriousGray: "#D0D6F9",
+                darkGrayBorder: "#0B0D17",
             },
         },
     },
