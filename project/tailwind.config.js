@@ -10,10 +10,20 @@ module.exports = {
         extend: {
             fontFamily: {
                 barlowCondensed: ["Barlow Condensed", "sans-serif"],
+                barlow: ["Barlow", "sans-serif"],
+                bellefair: ["Bellefair", "serif"],
+            },
+            fontSize: {
+                sml: "0.9375rem",
+                "2xl": "1.75rem",
+                "3xl": "2rem",
+                "7xl": "5rem",
+                "10xl": "9.375rem",
             },
             colors: {
                 transparentWhite: "rgba(255,255,255,0.04)",
                 headerLineGray: "#979797",
+                mysteriousGray: "#D0D6F9",
             },
         },
     },
