@@ -17,6 +17,14 @@ const Header = () => {
                     isOpen ? "show" : "hidden"
                 }  bg-transparentWhite z-10 fixed right-0 top-0 h-screen w-3/5 huge-blur pt-24 pl-6 md:block md:h-auto md:static md:w-auto md:pt-0 lg:pl-24 lg:pr-32`}
             >
+                <div
+                    className={`${
+                        isOpen ? "show" : "hidden"
+                    }  absolute right-6 z-10 top-10 md:hidden`}
+                    onClick={() => setIsOpen(false)}
+                >
+                    <CloseIcon />
+                </div>
                 <ul
                     className={`font-barlowCondensed text-white text-base tracking-widest uppercase md:flex md:text-sm lg:text-base`}
                 >
@@ -74,15 +82,6 @@ const Header = () => {
                 onClick={() => setIsOpen(true)}
             >
                 <HamburgerIcon />
-            </div>
-
-            <div
-                className={`${
-                    isOpen ? "show" : "hidden"
-                }  absolute right-6 z-10 md:hidden`}
-                onClick={() => setIsOpen(false)}
-            >
-                <CloseIcon />
             </div>
         </header>
     );

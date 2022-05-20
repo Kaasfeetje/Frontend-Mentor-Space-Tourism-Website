@@ -54,6 +54,18 @@
     display: block;
 }
 
+.attribution {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.attribution a {
+    color: rgb(208, 214, 249);
+}
+
 @media (min-width: 768px) {
     .home {
         background-image: url("./assets/home/background-home-tablet.jpg");
@@ -77,6 +89,10 @@
         display: block;
         width: auto;
         height: 100%;
+    }
+
+    .attribution br {
+        display: none;
     }
 }
 
